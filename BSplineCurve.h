@@ -1,6 +1,5 @@
 #ifndef _BSPLINECURVE_H
 #define _BSPLINECURVE_H
-#pragma once
 #include <IGESControl_Controller.hxx>
 #include <IGESControl_Writer.hxx>
 #include <Interface_Static.hxx>
