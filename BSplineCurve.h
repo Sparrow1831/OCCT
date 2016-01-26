@@ -65,7 +65,7 @@ namespace sBase
 			Handle_Geom_BSplineCurve m_hGeomBSpline;
 		};
 
-    typedef std::vector<shared_ptr<CBSplineCurve>> CBSplineCurves;
+    		typedef std::vector<shared_ptr<CBSplineCurve>> CBSplineCurves;
 		const double GetCurveLength(const CBSplineCurve& Curve,double t = -1);
 		BOOL SaveIGES(CBSplineCurve& Curve);
 		BOOL SaveIGES(CBSplineCurves Curves);
